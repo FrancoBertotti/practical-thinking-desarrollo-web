@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 26pt;
+    padding: 10px 20px 10px 20px;
+}
+h3{
+    font-size: 20pt;
+    padding: 10px 20px 10px 20px;
+}
+h5{
+    font-size: 16pt;
+    padding: 15px 25px 10px 25px;
+}
+p{
+    font-size: 12pt;
+    color: rgb(56, 55, 55);
+    padding: 15px 25px 10px 25px;
+}
+main span{
+    text-size-adjust: 14pt;
+    color: rgb(56, 55, 55);
+}
+header div nav{
+    font-family:montserrat;
+}
+main{
+    font-family: montserrat;
+}
+footer{
+    font-family:montserrat;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.style{
+    font-size: 14pt;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding: 0px 30px 20px 0px;
+}
+.style li{
+    list-style: none;
+    text-decoration: none;
+}
+.style li a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+.logo{
+    margin: 20px;
+    width: 165px;
+    height: 71px;
+}
+.backg{
+    width: 100%;
+    padding: 0px;
+    border: 0px 0px 100px 0px;
+    margin-bottom: 100px;
+    background-color: black;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+footer h2{
+    color: white;
+    font-size: 30pt;
+}
+footer h3{
+    color: white;
+}
+footer p{
+    color: white;
+}
+footer div p{
+    left: 110px;
+    top: 100px;
+}
+.card1{
+    margin: 20px 10px 20px 10px;
+    border: solid 1px;
+    border-color: rgb(215, 141, 13);
+}
+.h5card1{
+    padding: 20px 20px 15px 20px;
+}
+.pcard1{
+    padding: 0px 20px 20px 20px;
+}
+.imgcard1{
+    width: 100%;
+}
+.footerMargin{
+    margin: 40px 20px 40px 20px;
+    padding: 20px 0px 0px 0px;
+}
+.textRight{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.iconRight{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.h2footer{
+    padding: 5px;
+    width: 40%;
+}
+.sectionFooter{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.imgProductos{
+    display: flex;
+}
+.imgProduct{
+    width: 100%;
+}
+.imgGaleria{
+    width: 30%;
+}
+.centerImg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cardCenter{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+    margin: 20px;
+}
+.cards4{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 20px;
+}
+.map{
+    padding: 20px;
+    width: 50%;
+}
+.iconsContact{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
