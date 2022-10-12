@@ -83,10 +83,18 @@ footer div p{
     left: 110px;
     top: 100px;
 }
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
 .card1{
     margin: 20px 10px 20px 10px;
     border: solid 1px;
     border-color: rgb(215, 141, 13);
+    width: auto;
 }
 .h5card1{
     padding: 20px 20px 15px 20px;
@@ -166,4 +174,9 @@ footer div p{
     display: flex;
     gap: 20px;
     justify-content: start;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
