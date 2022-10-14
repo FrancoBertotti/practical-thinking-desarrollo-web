@@ -24,9 +24,10 @@ main span{
     text-size-adjust: 14pt;
     color: rgb(56, 55, 55);
 }
-header div nav{
+header nav div{
     font-family:montserrat;
 }
+
 main{
     font-family: montserrat;
 }
@@ -180,3 +181,13 @@ footer div p{
     flex-direction: column;
     justify-content: space-between;
 }
+.sinSalto{
+    width: 156px;
+}
+.w50{
+    width: 161px;
+}
+.w40{
+    width: 10px;
+}
+
