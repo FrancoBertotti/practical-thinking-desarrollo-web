@@ -27,7 +27,6 @@ main span{
 header nav div{
     font-family:montserrat;
 }
-
 main{
     font-family: montserrat;
 }
@@ -65,14 +64,16 @@ header{
     margin-bottom: 100px;
     background-color: black;
 }
+/*
 footer{
     width: 100%;
     height: 100%;
     background-color: black;
 }
+*/
 footer h2{
     color: white;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 footer h3{
     color: white;
@@ -80,10 +81,12 @@ footer h3{
 footer p{
     color: white;
 }
+/*
 footer div p{
     left: 110px;
     top: 100px;
 }
+*/
 .grid1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,10 +109,13 @@ footer div p{
 .imgcard1{
     width: 100%;
 }
+/*
 .footerMargin{
     margin: 40px 20px 40px 20px;
     padding: 20px 0px 0px 0px;
 }
+*/
+/*
 .textRight{
     display: flex;
     justify-content: center;
@@ -122,6 +128,8 @@ footer div p{
     display: flex;
     gap: 10px;
 }
+*/
+/*
 .h2footer{
     padding: 5px;
     width: 40%;
@@ -133,6 +141,8 @@ footer div p{
     gap: 20px;
     align-items: center;
 }
+*/
+
 .imgProductos{
     display: flex;
 }
@@ -150,25 +160,29 @@ footer div p{
 .cardCenter{
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 200px;
     align-items: center;
     margin: 20px;
 }
+.cardCenter h3{
+    text-align: center;
+}
 .cards4{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
 .type{
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    width: 50%;
+    width: 100%;
     padding: 20px;
+    align-items: flex-start;
 }
 .map{
     padding: 20px;
-    width: 50%;
+    width: 100%;
+    height: 530px;
 }
 .iconsContact{
     padding: 20px;
@@ -190,4 +204,42 @@ footer div p{
 .w40{
     width: 10px;
 }
+.sectionFooter{
 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.p-margin{
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+}
+.textRight{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+.iconRight{
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carousel{
+    padding: 20px;
+}
+/*
+.grid5{
+    display: grid;
+    grid-column: auto;
+    columns: 50vh 50vh;
+}
+*/
