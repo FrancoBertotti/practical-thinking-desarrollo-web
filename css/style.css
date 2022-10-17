@@ -195,6 +195,14 @@ footer div p{
     flex-direction: column;
     justify-content: space-between;
 }
+.card1:hover{
+    transform: scale(1.05);
+    transition:transform 1s;
+}
+.cardCenter:hover{
+    transform: scale(1.1);
+    transition:transform 0.5s;
+}
 .sinSalto{
     width: 156px;
 }
@@ -205,11 +213,9 @@ footer div p{
     width: 10px;
 }
 .sectionFooter{
-
     display: flex;
     align-items: center;
     justify-content: start;
-
 }
 .p-margin{
     margin: 10px 10px 10px 10px;
@@ -232,9 +238,13 @@ footer div p{
     gap: 15px;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: end;
 }
 .carousel{
     padding: 20px;
+}
+.text-animation:hover{
+    background-color: rgb(255, 42, 0);
 }
 /*
 .grid5{
@@ -243,3 +253,50 @@ footer div p{
     columns: 50vh 50vh;
 }
 */
+@media (max-width: 576px){
+
+    .grid1{
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 10px;
+    }
+    .card1{
+        margin: 0px 10px 10px 10px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .backg{
+        margin-bottom: 25px;
+    }
+    .container-media{
+        display: flex;
+        flex-direction: column;
+    }
+    .textRight{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .justify-content-end{
+        /* Remove this class */
+        }
+    .iconRight{
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+    .row{
+        display: inline;
+    }
+}
