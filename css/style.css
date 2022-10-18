@@ -288,9 +288,6 @@ footer div p{
         justify-content: center;
         align-items: center;
     }
-    .justify-content-end{
-        /* Remove this class */
-        }
     .iconRight{
         flex-direction: row;
         justify-content: center;
