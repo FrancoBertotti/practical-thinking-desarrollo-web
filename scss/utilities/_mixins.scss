@@ -1,0 +1,5 @@
+@mixin flex ($display,$aling-i,$justify-c){
+    display: $display;
+	align-items: $aling-i;
+	justify-content: $justify-c;
+}

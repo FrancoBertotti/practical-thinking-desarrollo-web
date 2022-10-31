@@ -1,0 +1,25 @@
+{
+  "name": "practicalthinking",
+  "version": "1.0.0",
+  "description": "Consta de 5 **HTML** donde se representa: Inicio, Productos, Galería, ¿Quienes somos? y Contacto. La apariencia es proporsionada por **CSS** y **Bootstrap**, siguiendo el diseño previamente generado en [**Figma**](http://www.figma.com/file/iKpIcVI1RLFCGqVJ7RNVOl/Desarrollo-web?node-id=0%3A1 \"**Figma**\").",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoBertotti/practical-thinking-desarrollo-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoBertotti/practical-thinking-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/FrancoBertotti/practical-thinking-desarrollo-web#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

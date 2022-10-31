@@ -1,0 +1,26 @@
+
+header {
+	nav {
+		div {
+			font-family: montserrat;
+		}
+	}
+	background-color: $backgrond-color;
+}
+.backg {
+	width: 100%;
+	padding: 0px;
+	border: 0px 0px 100px 0px;
+	margin-bottom: 100px;
+}
+.bg-black{
+	background-color: $backgrond-color;
+}
+.text-animation {
+	&:hover {
+		background-color: $color-principal;
+	}
+}
+.w50 {
+	width: 161px;
+}
