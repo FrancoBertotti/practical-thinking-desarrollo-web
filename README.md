@@ -10,6 +10,6 @@ El proposito fue hacer las pages responsive, bajo el concepto de *Responsive Web
 Dentro de ellos se combinó grids, flex y *boxmodel* según lo requerian.
 Utilización de efectos como *hover* para realizar el scale en cards y background color en la nav.
 
-[**Link servidor**](practicalthinking.epizy.com "**Link servidor**")
+[**Link servidor**](http://practicalthinking.epizy.com/index.html "**Link servidor**")
 
 **Franco Bertotti**
