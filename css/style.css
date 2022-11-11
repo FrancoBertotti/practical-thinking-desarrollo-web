@@ -5,7 +5,8 @@
 
 h1 {
   font-size: 26pt;
-  padding: 10px 20px 10px 20px; }
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px; }
 
 h3 {
   font-size: 20pt;
@@ -85,10 +86,10 @@ footer {
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
   padding: 20px;
-  margin: 20px; }
+  margin: 0px 20px 0px 20px; }
 
 .card1 {
-  margin: 20px 10px 20px 10px;
+  margin: 0px 10px 0px 10px;
   border: solid 1px;
   border-color: #ff4700;
   width: auto;
